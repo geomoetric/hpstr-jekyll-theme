@@ -20,12 +20,12 @@ $code-font                       : monospace;
 $alt-font                        : serif;
 
 $doc-font-size                   : 16;
-$doc-line-height                 : 16;
+$doc-line-height                 : 24;
 
 
 // set-up the body font-size / line-height
 body {
-  margin-top: 0px + $doc-line-height;
+  margin-top: 16px;
   font-size: 0px + $doc-font-size;
 }
 
