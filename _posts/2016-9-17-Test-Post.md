@@ -3,7 +3,7 @@ layout: post
 title: Test Posts
 ---
 
-#Website to do’s 
+# Website to do’s 
 
 1. [x] configure Jekyll to Git
 2. [x] edit typography (serif, 1.5 leading, light grey)
