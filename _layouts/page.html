@@ -23,17 +23,7 @@
 
 <div id="main" role="main">
   <article class="hentry">
-    <header class="header-title">
-      <div class="header-title-wrap">
-        <h1 class="entry-title">{{ page.title }}</h1>
-        {% if site.reading_time %}
-        <p class="entry-reading-time">
-          <i class="fa fa-clock-o"></i>
-          {% include read-time.html %}
-        </p><!-- /.entry-reading-time -->
-        {% endif %}
-      </div><!-- /.header-title-wrap -->
-    </header>
+    
     <div class="entry-content">
       {{ content }}
       <footer class="entry-meta">
@@ -45,7 +35,7 @@
     {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
   </article>
 </div><!-- /#main -->
-
+<!--removed post time -->
 <div class="footer-wrapper">
   <footer role="contentinfo">
     {% include footer.html %}
